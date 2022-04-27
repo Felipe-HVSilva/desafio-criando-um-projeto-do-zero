@@ -1,0 +1,65 @@
+.postImage {
+  width:100%;
+  margin:0 auto;
+
+  img {
+    width: 100%;
+  }
+}
+
+.postContainer {
+  max-width: 800px;
+  margin-top: 5rem;
+  h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--heading);
+    letter-spacing: -0.5px;
+  }
+}
+
+.postDetails {
+  display: flex;
+  max-width: 380px;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+
+  time {
+    display:flex;
+    align-items: center;
+    font-size: 0.875rem;
+    color: var(--info);
+    font-weight: 400;
+
+    svg {
+      margin-right: 0.5rem;
+    }
+  }
+
+  p {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+
+
+    svg {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.postContent {
+  h2 {
+    font-size: 2.25rem;
+    line-height: 140px;
+    color: var(--heading);
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 35px;
+    color: var(--body);
+  }
+}

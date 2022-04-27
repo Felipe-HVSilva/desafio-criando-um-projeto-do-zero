@@ -1,0 +1,54 @@
+.container {
+
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--heading);
+  }
+
+  p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: var(--body);
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+    color: var(--info);
+    margin-top: 1.5rem;
+
+    time {
+      display: flex;
+      align-items: center;
+
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+
+    small {
+      display: flex;
+      align-items: center;
+      margin-left: 1.5rem;
+
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  & + .container {
+    margin-top: 3rem;
+  }
+
+  margin-bottom: 4rem;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  color: var(--highlight);
+  font-size: 1rem;
+  font-weight: 600;
+}
